@@ -12,6 +12,7 @@ fun main() {
     val myStr : String = "Hello World"
     var firstCharInStr  = myStr[0]
     var lastCharInStr = myStr[myStr.length - 1]
+    var myLength = myStr.length
 
-    print("last character : " + lastCharInStr)
+    print("first character $firstCharInStr and the length of myStr is ${myStr.length}")
 }
